@@ -19,6 +19,8 @@ public class Item {
     private float amount;
     private float vat;
 
+    public Item() {
+    }
 
     public Item(String description, float amount, float vat) {
         this.description = description;

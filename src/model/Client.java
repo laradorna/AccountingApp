@@ -20,6 +20,8 @@ public class Client {
     String direction;
     String phone;
 
+    public Client() {
+    }
 
     public Client(String nif, String businessName) {
         this.nif = nif;
